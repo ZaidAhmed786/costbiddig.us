@@ -1,0 +1,96 @@
+   .hero-section-service {
+      background: url('../images/Services.webp') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+     .services-section {
+      background-color: #1C3457;
+      color: white;
+      padding: 60px 0;
+    }
+    .services-section h2 {
+      font-weight: bold;
+    }
+    .services-section .text-highlight {
+      color: #00BCD4;
+      font-weight: 500;
+    }
+    .feedback-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .feedback-card {
+      background-color: #1C3457;
+      color: white;
+      padding: 30px;
+      border-radius: 8px;
+      height: 100%;
+    }
+    .feedback-card i {
+      color: #00BCD4;
+    }
+    .feedback-card .client-name {
+      font-weight: 600;
+      margin-top: 15px;
+    }
+    .feedback-card .client-location {
+      font-size: 0.9rem;
+      margin-top: -8px;
+      color: #ccc;
+    }
+
+
+    /* prject */
+
+    
+    .project-section-title {
+      /* margin-top: 50px; */
+      padding-top: 100px;
+      margin-bottom: 10px;
+    }
+
+    .project-sub-text {
+      font-size: 18px;
+      color: gray;
+    }
+
+    .project-caption {
+      color: #0cb6c8;
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .project-img-box {
+      margin-bottom: 30px;
+    }
+
+    .project-img-box img {
+      width: 100%;
+      height: 300px;
+      height: auto;
+      border-radius: 6px;
+    }
+
+
+     @media (max-width: 786px) {
+   .hero-section-service {
+      background: url('../images/Services.webp') no-repeat center center/cover;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+     }

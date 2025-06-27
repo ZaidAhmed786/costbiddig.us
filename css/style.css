@@ -1,0 +1,388 @@
+    .navbar-nav .nav-link.active {
+      font-weight: bold;
+      color: #000;
+      position: relative;
+    }
+
+    .navbar-nav .nav-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: #7ED957;
+    }
+
+    .nav-link {
+      font-weight: bold;
+      color: #14A2B8 !important;
+    }
+
+    .navbar-brand span {
+      font-size: 12px;
+      display: block;
+      color: #007fae;
+    }
+
+    .social-icons a {
+      color: #14A2B8;
+      margin-left: 20px;
+      font-size: 25px;
+    }
+
+    .call-btn {
+      background-color: #14A2B8;
+      color: white;
+      padding: 12px 35px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo-text {
+      font-weight: bold;
+      font-size: 14px;
+      color: #14A2B8;
+    }
+
+
+
+    
+    .hero-section {
+      background: url('../images/costbidding.avif') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: -1;
+    }
+
+    .hero-section h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .btn-quote {
+      background-color: #14A2B8;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: none;
+    }
+
+    .service-boxes {
+      margin-top: 50px;
+      display: flex;
+      width: 100%;
+    }
+
+    .service-box {
+        width: 32%;
+
+      background: rgba(160, 157, 157, 0.432);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      color: white;
+      border-radius: 5px;
+      min-height: 150px;
+    }
+
+    .service-box h4 {
+      color: #14A2B8;
+      font-weight: bold;
+    }
+
+
+
+     .commit-heading {
+      color: #14A2B8;
+      font-weight: bold;
+    }
+
+    .commit-section p {
+      color: gray;
+      font-size: 17px;
+    }
+
+   
+    .stats-box {
+      background-color: #2e6c91;
+      color: white;
+      /* margin-top: -100px; */
+      width: 50%;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .stats-box h1 {
+      font-weight: bold;
+      
+    }
+
+    .stats-box p {
+      margin: 0;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+     .testimonial-card {
+      background-color: #162C4A;
+      color: white;
+      border-radius: 50%;
+      width: 350px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:60px 25px;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .testimonial-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 15px;
+    }
+
+    .testimonial-name {
+      font-weight: bold;
+      font-size: 20px;
+      color: #32A4B1;
+      margin-top: 10px;
+    }
+
+    .stars {
+      color: #32A4B1;
+      margin-bottom: 10px;
+    }
+
+    h2.section-title {
+      color: #32A4B1;
+      font-weight: bold;
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .service{
+        background-color: #162C4A;
+    }
+
+
+       .section-title {
+      color: #32A4B1;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .section-subtext {
+      color: white;
+      text-align: center;
+      font-size: 17px;
+      margin-bottom: 40px;
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card-service {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+
+    .card-service img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-body-custom {
+      background-color: white;
+      color: #333;
+      padding: 20px;
+      padding-bottom: 60px;
+    }
+
+    .card-body-custom h5 {
+      color: #32A4B1;
+      font-weight: bold;
+    }
+
+    .card-body-custom p {
+      margin: 0;
+      font-size: 17px;
+    }
+
+     .contact-title {
+      text-align: center;
+      color: #32A4B1;
+      font-weight: bold;
+      margin: 40px 0 20px;
+    }
+
+    .contact-section {
+      padding: 40px 20px;
+    }
+
+    .contact-images img {
+      width: 95%;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .form-control, .form-check-input {
+      border-radius: 20px;
+      border: 2px solid #1C3457;
+    }
+
+    .form-check-label {
+      margin-left: 8px;
+    }
+    .lable-2{
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #1C3457;
+        font-weight: bold;
+    }
+
+    .form-note {
+      font-size: 12px;
+      color: #555;
+    }
+
+    .btn-submit {
+      background-color: #32A4B1;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 20px;
+    }
+
+    .btn-submit:hover {
+      background-color: #2b8c9a;
+    }
+
+     .footer {
+      background-color: #1C3457;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: #00BCD4;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .icon {
+      font-size: 1.2rem;
+      margin-right: 8px;
+    }
+    .footer .social-icons a {
+      color: #00BCD4;
+      font-size: 1.4rem;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ddd;
+      opacity: 0.1;
+    }
+ @media (max-width: 992px) {
+        .navbar-nav .nav-link.active::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background-color: #7ED957;
+    }
+ }
+
+    @media (max-width: 768px) {
+    
+       .service-boxes {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+        .service-box {
+        width: 100%;
+            margin-top: 20px;
+      background: rgba(160, 157, 157, 0.432);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      color: white;
+      border-radius: 5px;
+      min-height: 150px;
+    }
+    }
+    
+    @media (max-width: 414px) {
+         .testimonial-card {
+      background-color: #162C4A;
+      color: white;
+      border-radius: 50%;
+      width: 320px;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:50px 25px;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .testimonial-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 15px;
+    }
+
+    .testimonial-name {
+      font-weight: bold;
+      font-size: 20px;
+      color: #32A4B1;
+      margin-top: 10px;
+    }
+
+    }
